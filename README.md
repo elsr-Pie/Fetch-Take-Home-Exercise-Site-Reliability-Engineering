@@ -36,7 +36,9 @@ Getting Started
    
    If Go is not installed, download and install it from "https://go.dev/dl/". Once installed, verify the installation by running the following command:
    
-   `go version`
+   ```
+   go version
+   ```
    
    You should see output similar to:
    
@@ -58,7 +60,9 @@ Option 1: Run Directly
 
 Open the terminal in the project directory and execute the following command:
 
-`go run main.go http-endpoint.yaml`
+```
+go run main.go http-endpoint.yaml
+```
 
 
 This will run the program immediately and initiate health checks on the endpoints listed in `http-endpoint.yaml` or the yaml file you created.
@@ -67,25 +71,29 @@ Option 2: Build and Run
 
 First, compile the program:
 
-`go build main.go`
+```
+go build main.go
+```
 
 
 This will generate an executable file (e.g., `main` or `main.exe` on Windows). Next, execute the compiled program with:
 
 
-`./main http-endpoint.yaml`
+```
+./main http-endpoint.yaml
+```
 
 
 Seeing the Results
 
 The program will print the availability percentages of each domain every 15 seconds. Example console output:
 
-`
+```
 www.fetchrewards.com has 100% availability
 fetch.com has 67% availability
 fetch.com has 67% availability
 www.fetchrewards.com has 100% availability
-`
+```
 
 Stopping the Program
 
@@ -103,7 +111,7 @@ if len(os.Args) != 2 {
 }
 ```
 
-2. Loading the Configuration**
+2. Loading the Configuration
 
 The `loadConfig` function reads your YAML file and converts it into a Go data structure called `[]Endpoint`. Each endpoint has fields like `name`, `url`, `method`, `headers`, and `body`.
 
