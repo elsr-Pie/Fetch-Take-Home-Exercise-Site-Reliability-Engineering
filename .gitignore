@@ -1,0 +1,28 @@
+# Binaries (executables)
+main
+*.exe
+
+# Go specific
+*.out
+*.test
+*.mod
+*.sum
+
+# Dependency directories (vendor/)
+vendor/
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive files (if applicable, e.g. API keys)
+.env
