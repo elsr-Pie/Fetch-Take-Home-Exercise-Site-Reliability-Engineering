@@ -26,9 +26,9 @@ Getting Started
    
    Open a terminal and run the following command to clone the repository containing the project:
    
-   `git clone https://github.com/your-repo-name/health-checker.git`
+   `git clone https://github.com/elsr-Pie/Fetch-Take-Home-Exercise-Site-Reliability-Engineering.git`
    
-   Alternatively, create a directory and manually place the Go code (`main.go`) and the YAML configuration file (`http-endpoints.yaml`) inside that directory.
+   Alternatively, create a directory and manually place the Go code (`main.go`) and the YAML configuration file (`http-endpoint.yaml`) inside that directory.
 
 2. Install Go:
    
@@ -56,7 +56,7 @@ Option 1: Run Directly
 
 Open the terminal in the project directory and execute the following command:
 
-`go run main.go endpoints.yaml`
+`go run main.go http-endpoint.yaml`
 
 
 This will run the program immediately and initiate health checks on the endpoints listed in `http-endpoint.yaml` or the yaml file you created.
@@ -71,7 +71,7 @@ First, compile the program:
 This will generate an executable file (e.g., `main` or `main.exe` on Windows). Next, execute the compiled program with:
 
 
-`./main endpoints.yaml`
+`./main http-endpoint.yaml`
 
 
 Seeing the Results
