@@ -16,7 +16,7 @@ What You'll Need
 
 To get started, please ensure you have the following on your machine:
 
-1. Go programming language: Version 1.22 or later is recommended. You can download and install Go from the official website `https://go.dev/dl/`
+1. Go programming language: Version 1.22 or later is recommended. You can download and install Go from the official website "https://go.dev/dl/"
 2. Git: A version control system that helps you clone repositories or manage your own.
 
 
@@ -26,7 +26,7 @@ Getting Started
    
    Open a terminal and run the following command to clone the repository containing the project:
    
-   `git clone https://github.com/elsr-Pie/Fetch-Take-Home-Exercise-Site-Reliability-Engineering.git`
+   ```git clone https://github.com/elsr-Pie/Fetch-Take-Home-Exercise-Site-Reliability-Engineering.git```
    
    Alternatively, create a directory and manually place the Go code (`main.go`) and the YAML configuration file (`http-endpoint.yaml`) inside that directory.
 
