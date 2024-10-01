@@ -7,7 +7,7 @@ This guide will walk you through the process of setting up and running the solut
 Table of Contents
 
 1. What You'll Need
-2. Getting Started]
+2. Getting Started
 3. Let's Run the Program
 4. Understanding the Code
 5. What You'll See
@@ -16,7 +16,7 @@ What You'll Need
 
 To get started, please ensure you have the following on your machine:
 
-1. Go programming language**: Version 1.22 or later is recommended. You can download and install Go from the official website `https://go.dev/dl/`
+1. Go programming language: Version 1.22 or later is recommended. You can download and install Go from the official website `https://go.dev/dl/`
 2. Git: A version control system that helps you clone repositories or manage your own.
 
 
@@ -52,7 +52,7 @@ Running or Building the Program
 
 You have two options for running the program: executing it directly or compiling and running the compiled version.
 
-#### Option 1: Run Directly
+Option 1: Run Directly
 
 Open the terminal in the project directory and execute the following command:
 
