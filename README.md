@@ -26,11 +26,13 @@ Getting Started
    
    Open a terminal and run the following command to clone the repository containing the project:
    
-   ```git clone https://github.com/elsr-Pie/Fetch-Take-Home-Exercise-Site-Reliability-Engineering.git```
+   ```
+   git clone https://github.com/elsr-Pie/Fetch-Take-Home-Exercise-Site-Reliability-Engineering.git
+   ```
    
    Alternatively, create a directory and manually place the Go code (`main.go`) and the YAML configuration file (`http-endpoint.yaml`) inside that directory.
 
-2. Install Go:
+3. Install Go:
    
    If Go is not installed, download and install it from "https://go.dev/dl/". Once installed, verify the installation by running the following command:
    
